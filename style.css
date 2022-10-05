@@ -1,3 +1,46 @@
-h1, h2 {
-  font-family: Lato;
+body {
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.border-box {
+  background-color: azure;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 1em;
+}
+
+.code {
+  background-color: azure;
+  padding: 2em 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.box h2 {
+  margin-top: 0;
+  margin-bottom: 4px;
+  color: dodgerblue;
+}
+.actions {
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  padding: 1em;
+  border: 1px solid #ddd;
+}
+.action {
+  margin-bottom: 1em;
+}
+.action-cmd {
+  font-weight: 700;
+  padding-right: 1em;
+}
+.action-value {
+}
+
+#echo {
+  opacity: 0.7;
 }

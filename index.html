@@ -1,1 +1,23 @@
-<div id="app"></div>
+<div id="app">
+  <div>
+    <pre id="code-content" class="code border-box" contenteditable="true">
+  -t=laravel;model;
+  -?=Laravel: Retrieving Data in Loop in a One to Many Relationship
+  public function up()
+  {
+    Schema::create('students', function (Blueprint $table) {
+        $table->bigIncrements('id');
+        $table->unsignedBigInteger('school_id');
+        $table->string('first_name');
+        $table->timestamps();
+    });
+  }
+</pre
+    >
+  </div>
+  <div class="box border-box">
+    <h2>Translate to</h2>
+    <div id="action-todo" class="actions"></div>
+  </div>
+</div>
+<div id="echo" class="border-box"></div>
